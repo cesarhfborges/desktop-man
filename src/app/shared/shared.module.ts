@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NbLayoutModule } from '@nebular/theme';
+import { NbCardModule, NbLayoutModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 
 const MODULES: any[] = [
   NbLayoutModule,
   NbEvaIconsModule,
+  NbCardModule
 ];
 
 
